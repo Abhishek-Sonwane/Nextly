@@ -11,50 +11,91 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "User Dashboard",
+  desc:"",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Displays KPIs",
+      desc: "These KPIs can be used to measure the effectiveness of display advertising campaigns, track progress towards business objectives, and inform optimization and budget allocation decisions.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Delivery Predictions",
+      desc: "The Delivery Predictions feature is designed to provide users with accurate and timely information about the expected delivery dates and times for their orders.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Inventory Levels",
+      desc: "The Inventory Levels feature provides a comprehensive overview of current stock quantities for products, helping users and administrators manage inventory effectively.",
+      icon: <CursorArrowRaysIcon />,
+    },
+    {
+      title: "Cost Analytics",
+      desc: "The Cost Analytics feature provides a detailed analysis of costs associated with operations, helping businesses understand their spending patterns, optimize expenses, and improve profitability.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Admin Panel",
+  desc:"",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Manages data inputs",
+      desc:"",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Users",
+      desc:"",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Vechiles",
+      desc:"",
       icon: <SunIcon />,
     },
   ],
 };
 
+const benefitThree = {
+  title: "Interactive Maps",
+  desc:"",
+  image: benefitOneImg,
+  bullets: [
+    {
+      title: "Route Optimization",
+      desc:"",
+      icon: <DevicePhoneMobileIcon />,
+    },
+    {
+      title: "Real-Time Tracking",
+      desc:"",
+      icon: <AdjustmentsHorizontalIcon />,
+    },
+  ],
+};
 
-export {benefitOne, benefitTwo};
+const benefitFour = {
+  title: "Feedback Interface",
+  desc:"",
+  image: benefitTwoImg,
+  bullets: [
+    {
+      title: "Collect Customer Feedback",
+      desc:"",
+      icon: <DevicePhoneMobileIcon />,
+    },
+    {
+      title: "Display Sentiment Analysis",
+      desc:"",
+      icon: <AdjustmentsHorizontalIcon />,
+    },
+  ],
+};
+
+
+export {benefitOne, benefitTwo, benefitThree, benefitFour};
